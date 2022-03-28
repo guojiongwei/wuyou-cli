@@ -1,0 +1,38 @@
+{
+  "name": "wuyou-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/cli.js",
+  "bin": {
+    "wuyou": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wuyou-cli",
+    "wuyou",
+    "脚手架"
+  ],
+  "author": {
+    "name": "guojiongwei",
+    "email": "18530633992@163.com"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.2",
+    "commander": "^9.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.0.1"
+  }
+}
