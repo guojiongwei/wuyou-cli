@@ -1,4 +1,4 @@
-## 搭建一个简单的脚手架
+## 学习搭建一个简单的脚手架
 
 ### 安装
 
@@ -18,6 +18,11 @@ $ yarn global add wuyou-cli
 $ wuyou create <name> [-f|--force]
 ```
 
+### 示例
+```shell
+$ wuyou create demo-app
+```
+
 #### Options
 
-- `-f, --force`: Overwrite if the target exists
+- `-f, --force`: 覆盖目录下同名文件

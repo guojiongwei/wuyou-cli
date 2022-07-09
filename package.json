@@ -1,7 +1,7 @@
 {
   "name": "wuyou-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "学习搭建cli脚手架",
   "main": "./bin/cli.js",
   "bin": {
     "wuyou": "./bin/cli.js"
