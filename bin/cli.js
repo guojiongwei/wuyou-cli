@@ -24,7 +24,8 @@ program
       }
     ]).then((answers) => {
       const { name, template } = answers
-      downloadGitRepo(template+'#main', path.join(process.cwd(), name), (err) => {
+      console.log(answers)
+      downloadGitRepo(template, path.join(process.cwd(), name), (err) => {
         if (err) {
           console.log('创建失败', err)
         } else {
