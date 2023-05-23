@@ -67,7 +67,7 @@ program
     // 5. 开始下载模版
     downloadGitRepo(projectTemplate, dest, (err) => {
       if (err) {
-        loading.fail('创建模版失败：' + err.message) // 失败loading
+        loading.fail('创建模版失败：' + err) // 失败loading
       } else {
         loading.succeed('创建模版成功!') // 成功loading
         console.log(`\ncd ${projectName}`)

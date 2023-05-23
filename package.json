@@ -1,7 +1,7 @@
 {
   "name": "wuyou-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.1",
+  "description": "学习搭建cli脚手架",
   "main": "index.js",
   "bin": {
     "wuyou-cli": "./bin/cli.js"
@@ -25,7 +25,7 @@
     "download-git-repo": "^3.0.2",
     "fs-extra": "^11.1.1",
     "inquirer": "^8.2.5",
-    "ora": "^6.3.1"
+    "ora": "^5.4.1"
   },
   "files": [
     "bin"
